@@ -38,3 +38,7 @@ nosetests.xml
 # Camera files
 camera/*.jpg
 
+# Files downloaded from elsewhere
+piglow/piglow.py
+piglow/test.py
+
