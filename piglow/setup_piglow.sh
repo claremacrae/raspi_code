@@ -2,7 +2,7 @@
 
 # Taken from http://www.recantha.co.uk/blog/?p=2582
 
-sudo apt-get install i2c-tools
+sudo apt-get install i2c-tools -y
 sudo sed --in-place=backup -e '/^blacklist i2c-bcm2708/ s/^/#/' /etc/modprobe.d/raspi-blacklist.conf
 
 # TODO Change these so they actually edit the file
