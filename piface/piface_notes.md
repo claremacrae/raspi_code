@@ -19,3 +19,8 @@ From [PiFace Digital Emulator](http://www.piface.org.uk/guides/Install_PiFace_So
 
     piface-emulator
 
+Example scripts are in:
+
+    /usr/share/doc/python-pifacedigitalio/examples/
+
+
