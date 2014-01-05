@@ -3,6 +3,7 @@
 ## Info and useful links
 
 * [Mathematica and the Wolfram Language on Raspberry Pi](http://www.raspberrypi.org/archives/5623) - 02/01/2014
+* Mathlink allows communication with other programs
 
 ## Running on the command line
 
@@ -11,6 +12,43 @@
     math
 
 Except that this does exist on the current NOOBS (1.3.3?)
+
+## Reference
+
+### Tips
+
+* `Shift + Enter` to calculate
+* Or just `Enter` on numeric keypad
+* `Ctrl + L` to recall last input
+* `%` is result of output from calculation
+* `Out[27]` = output of 27th calculation
+* Get instant info about built-in function: Type `?` and function name, then `Shift + Enter`
+* To complete a partially typed command name, `Ctrl + K`
+* To see a function template for a given function, press `Shift+Ctrl+K`
+* To abort a calculation, press Alt+.
+* A `;` at end of line suppresses output, but the command is still evaluated.
+* Append `//N` to get an approximate numeric result, e.g. instead of a fraction
+* `N[ expression, 40 ]` gives result with 40 significant digits
+* Presence of explicit decimal point e.g. `Sqrt[2.]` also gives an approximate numeric result
+* When you have finished with a symbol, e.g. f, use `Clear[f]` afterwards, to remove it
+
+### Variables
+
+* Naming conventions
+	* Objects have names starting with a capital
+	* Variable names start with lower case
+
+### Functions 
+
+Defining function:
+
+	f[x_] := x^2
+
+Using the function
+
+	f[4]
+	f[3 x + x^2]
+	Expand[f[(x + 1 + y)]]
 
 ## Mathematica program
 
