@@ -23,11 +23,14 @@
 			* It turned out that this was not helped by my not knowing to peel off the white plastic sheeting
 		* The instructions say to use `-vf` to fix the orientation, but this produces a reflected image
 		* The correct option is actually `-rot 180`
+* [ModMyPi | RPi Camera Board 360 Gooseneck Mount](https://www.modmypi.com/flexible-camera-mount)
+	*  [ModMyPi | Raspberry Pi Camera](https://www.modmypi.com/raspberry-pi-camera)
 
 ## Software
 
 * Software for programming
     * [A pure Python interface for the Raspberry Pi camera module.](https://pypi.python.org/pypi/picamera/)
+    * [A pure Python interface for the camera module: meet picamera! | Raspberry Pi](http://www.raspberrypi.org/archives/5672)
 * BerryCam - iPhone software
     * [BerryCam: use your Raspberry Pi camera board with your iPhone](http://www.raspberrypi.org/archives/4791)
     * [BerryCam support](http://www.fotosyn.com/berrycam-support/)
