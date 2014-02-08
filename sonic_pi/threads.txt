@@ -1,0 +1,20 @@
+in_thread do
+	with_synth "saw_beep"
+	10.times do
+	  if rand < 0.5
+	    play 37
+	  else
+	    play 49
+	  end
+	  sleep 2
+	end
+end
+
+
+in_thread do
+	with_synth "pretty_bell"
+	20.times do
+		play 49
+		sleep 1
+	end
+end

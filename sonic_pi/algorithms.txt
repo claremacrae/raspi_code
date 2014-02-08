@@ -1,0 +1,9 @@
+with_tempo 150
+
+play_pattern [60,61,62,63,64,65].sort
+sleep 2
+
+play_pattern [60,61,62,63,64,65].reverse
+sleep 2
+
+play_pattern [60,61,62,63,64,65].shuffle
