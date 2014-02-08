@@ -26,7 +26,7 @@ With loops - between `do` and `end`:
 	with_tempo 150
 	2.times do
 		play_pattern [60,60,67,67,69,69,67]
-		sleep 0.5var
+		sleep 0.5
 	end
 
 Introducing variables
