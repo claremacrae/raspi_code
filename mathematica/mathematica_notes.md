@@ -4,6 +4,7 @@
 
 * [Mathematica and the Wolfram Language on Raspberry Pi](http://www.raspberrypi.org/archives/5623) - 02/01/2014
 * Mathlink allows communication with other programs
+* [Tutorial Collection](http://www.wolfram.com/learningcenter/tutorialcollection/)
 
 ## Running on the command line
 
@@ -20,8 +21,11 @@ Except that this does exist on the current NOOBS (1.3.3?)
 * `Shift + Enter` to calculate
 * Or just `Enter` on numeric keypad
 * `Ctrl + L` to recall last input
-* `%` is result of output from calculation
-* `Out[27]` = output of 27th calculation
+* Accessing previous results
+	* `%` is result of output from last calculation
+	* `%%` is next-to-last result
+	* `Out[27]` = output of 27th calculation
+	* `%n` is result on output line `Out[n]`
 * Get instant info about built-in function: Type `?` and function name, then `Shift + Enter`
 * To complete a partially typed command name, `Ctrl + K`
 * To see a function template for a given function, press `Shift+Ctrl+K`
