@@ -26,14 +26,14 @@ With loops - between `do` and `end`:
 	with_tempo 150
 	2.times do
 		play_pattern [60,60,67,67,69,69,67]
-		sleep 0.5
+		sleep 0.5var
 	end
 
 Introducing variables
 
 	C=60
 	D=62
-	play_pattern[C,D,C,D]
+	play_pattern [C,D,C,D]
 
 Synthesizers: default synch is `pretty_bell`. Others examples are `dull_bell`, `fm`, `beep`, `saw_beep`. You can change by putting something like this before the instructions:
 
