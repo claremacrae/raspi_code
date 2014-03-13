@@ -6,6 +6,10 @@
 * Mathlink allows communication with other programs
 * [Tutorial Collection](http://www.wolfram.com/learningcenter/tutorialcollection/)
 
+## Wolfram Language
+
+* [Stephen Wolfram's Introduction to the Wolfram Language - YouTube](http://m.youtube.com/watch?v=_P9HqHVPeik)
+
 ## Running on the command line
 
 * Can run scripts in batch command
