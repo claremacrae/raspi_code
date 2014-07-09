@@ -1,7 +1,25 @@
 raspi_code
 ==========
 
+## Clare Macrae's Raspberry Pi notes
+
+
 A place to store my Raspberry Pi experiments and notes
+
+This has evolved a way to share sets of links with friends who are interested in the Raspberry Pi.
+
+The main areas are:
+
+* [Getting Started](getting_started/)
+* [Setup](setup/) 
+* [Kids and Education](kids_and_education/)
+* [Programming](programming/)
+* [Hardware](hardware/)
+* [Fun](fun/)
+
+The files called `.md` are the ones of general interest.
+
+## Clare Macrae's Raspberry Pi Scripts
 
 To use this on a new NOOBS image:
 
