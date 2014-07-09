@@ -1,0 +1,19 @@
+with_tempo 150
+C=60
+D=62
+
+with_synth "pretty_bell"
+play_pattern [C,D,C,D]
+sleep 1
+
+with_synth "dull_bell"
+play_pattern [C,D,C,D]
+sleep 1
+
+with_synth "beep"
+play_pattern [C,D,C,D]
+sleep 1
+
+with_synth "saw_beep"
+play_pattern [C,D,C,D]
+sleep 1

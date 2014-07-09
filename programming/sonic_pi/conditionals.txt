@@ -1,0 +1,8 @@
+10.times do
+  if rand < 0.5
+    play 37
+  else
+    play 49
+  end
+  sleep 1
+end
