@@ -14,7 +14,7 @@
 
 * Can run scripts in batch command
 
-    math
+	    math
 
 Except that this does exist on the current NOOBS (1.3.3?)
 

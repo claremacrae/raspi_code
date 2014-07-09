@@ -39,7 +39,8 @@
 * [An Efficient And Simple C++ API for the Rasperry Pi Camera Module](http://robotblogging.blogspot.co.uk/2013/10/an-efficient-and-simple-c-api-for.html?m=1)
 * Time lapse photography
     * [Raspberry Pi - Timelapse photography and encoding](http://www.youtube.com/watch?v=C2b4aIirE48&feature=c4-overview&list=UURAvo5cQWyfog8nRzlf_jWg)
-    * [Simple timelapse camera using Raspberry Pi and a coffee tin](http://www.instructables.com/id/Simple-timelapse-camera-using-Raspberry-Pi-and-a-c/?ALLSTEPS) * Stop motion animation
+    * [Simple timelapse camera using Raspberry Pi and a coffee tin](http://www.instructables.com/id/Simple-timelapse-camera-using-Raspberry-Pi-and-a-c/?ALLSTEPS) 
+* Stop motion animation
     * [Push Button Stop Motion](http://www.raspberrypi.org/learning/push-button-stop-motion/worksheet.md)
 
 ## RasPi Camera project ideas
