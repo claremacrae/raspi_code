@@ -1,3 +1,0 @@
-C=60
-D=62
-play_pattern [C,D,C,D]
