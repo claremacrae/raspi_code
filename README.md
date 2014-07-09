@@ -11,7 +11,6 @@ This has evolved a way to share sets of links with friends who are interested in
 The main areas are:
 
 * [Getting Started](getting_started/)
-* [Setup](setup/) 
 * [Kids and Education](kids_and_education/)
 * [Programming](programming/)
 * [Hardware](hardware/)
@@ -20,6 +19,10 @@ The main areas are:
 The files called `.md` are the ones of general interest.
 
 ## Clare Macrae's Raspberry Pi Scripts
+
+*This section is probably only useful for me. It's a reminder of how to get these files onto a Raspberry Pi.*
+
+* [Setup](setup/) 
 
 To use this on a new NOOBS image:
 
