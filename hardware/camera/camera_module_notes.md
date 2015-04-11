@@ -36,12 +36,18 @@
     * [BerryCam support](http://www.fotosyn.com/berrycam-support/)
         * But don't use `sudo` as it'll make root own all the photos - it works fine without sudo for me. 
     * [BerryCam on BitBucket](https://bitbucket.org/fotosyn/fotosynlabs/src/9819edca8927/BerryCam?at=master)
+* Picamera
+    * [Documentation for picamera — Picamera 1.7 documentation](https://picamera.readthedocs.org/en/release-1.7/)
 * [An Efficient And Simple C++ API for the Rasperry Pi Camera Module](http://robotblogging.blogspot.co.uk/2013/10/an-efficient-and-simple-c-api-for.html?m=1)
 * Time lapse photography
     * [Raspberry Pi - Timelapse photography and encoding](http://www.youtube.com/watch?v=C2b4aIirE48&feature=c4-overview&list=UURAvo5cQWyfog8nRzlf_jWg)
     * [Simple timelapse camera using Raspberry Pi and a coffee tin](http://www.instructables.com/id/Simple-timelapse-camera-using-Raspberry-Pi-and-a-c/?ALLSTEPS) 
 * Stop motion animation
     * [Push Button Stop Motion](http://www.raspberrypi.org/learning/push-button-stop-motion/worksheet.md)
+
+## Other people's projects
+
+* [Winter on Georgian Bay | Inventing Situations.](http://inventingsituations.net/2014/05/16/winter-on-georgian-bay/)
 
 ## RasPi Camera project ideas
 

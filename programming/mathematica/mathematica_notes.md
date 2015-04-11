@@ -5,6 +5,7 @@
 * [Mathematica and the Wolfram Language on Raspberry Pi](http://www.raspberrypi.org/archives/5623) - 02/01/2014
 * Mathlink allows communication with other programs
 * [Tutorial Collection](http://www.wolfram.com/learningcenter/tutorialcollection/)
+* [Mathematica 10 – now available for your Pi! | Raspberry Pi](http://www.raspberrypi.org/mathematica-10/) - 01/08/2014
 
 ## Wolfram Language
 

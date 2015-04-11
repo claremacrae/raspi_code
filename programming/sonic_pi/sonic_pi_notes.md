@@ -5,6 +5,17 @@
 * [Making Computer Science Audible](http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/)
 	* [Sonic Pi 1.0 Cheat Sheet](http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/media/sonic-pi-cheatsheet.pdf)
 * [MIDI Note/Key Number Chart](http://computermusicresource.com/midikeys.html)
+* Source code: [samaaron/sonic-pi · GitHub](https://github.com/samaaron/sonic-pi)
+* [Sonic Pi v2.0](http://sonic-pi.net/get-v2.0)
+
+## Examples
+
+* [SonicPiChristmasMedley by rbnman - Hear the worldâs sounds](https://soundcloud.com/rbnman/sonicpichristmasmedley)
+	* [Sonic-Pi Christmas Medley 1: The Holly and The Ivy](https://gist.github.com/rbnpi/8275ea63244b0a98aeaa)
+	* [Sonic-Pi Christmas Medley 2: Jingle Bells](https://gist.github.com/rbnpi/6032176de271227e6324)
+	* [Sonic Pi Christmas Medley 3: SilentNight](https://gist.github.com/rbnpi/eccf3ea23bc55f0f073e)
+	* [Sonic Pi Christmas Medley 4: Ding Dong Merrily on High](https://gist.github.com/rbnpi/277d1724fc6f9a4155d1)
+	* [Sonic Pi Christmas Medley 5: We Wish You A Merry Christmas](https://gist.github.com/rbnpi/c787e705056bacd0c435)
 
 ## Syntax
 

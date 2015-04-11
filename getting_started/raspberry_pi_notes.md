@@ -10,6 +10,7 @@
 	* [Raspberry Pi forum - Mathematica](http://www.raspberrypi.org/phpBB3/viewforum.php?f=94&sid=c1197f61a119abf87346ee7a96ca4d37)
 	* [Walking Randomly » Playing with Mathematica on Raspberry Pi](http://www.walkingrandomly.com/?p=5220)
 * [Controlling the Raspberry Pi from an iPad](http://whatapalaver.co.uk/2013/12/controlling-raspberry-pi-from-ipad/)
+* [Web browser released! | Raspberry Pi](http://www.raspberrypi.org/web-browser-released/) - 01/09/2014
 
 ## Info
 
@@ -37,7 +38,7 @@
 
 # Programming
 
-## development Tools
+## Development Tools
 
 * [adafruit WebIDE](http://learn.adafruit.com/webide)
 
@@ -64,5 +65,5 @@ Things to read up on:
 
 # quick2wire
 
-* https://github.com/quick2wire
-* http://quick2wire.com/
+* [Quick2Wire · GitHub](https://github.com/quick2wire)
+* [Quick2Wire](http://quick2wire.com/)

@@ -3,6 +3,11 @@
 ## Buying Info ##
 
 * [http://www.raspberrypi.org/phpBB3/viewtopic.php?f=45&t=25895RPi Buying Guide](http://elinux.org/RPi_Buying_Guide)
+* [Christmas shopping guide | Raspberry Pi](http://www.raspberrypi.org/christmas-shopping-guide/) - December 2014
+
+## Models
+
+* [Raspberry Pi Model B+ Launched Today » RasPi.TV](http://raspi.tv/2014/raspberry-pi-model-b-launched-today)
 
 ## Getting Started
 
@@ -15,6 +20,7 @@
 	* [RPi Easy SD Card Setup](http://elinux.org/RPi_Easy_SD_Card_Setup)
 * [Fitting the case - video](http://www.youtube.com/watch?v=yRbfQCxEWYs)
 * [RaspbianFAQ - Raspbian](http://www.raspbian.org/RaspbianFAQ)
+* [How To Format Pi SD Cards Using SD Formatter | Raspberry Pi Spy](http://www.raspberrypi-spy.co.uk/2015/03/how-to-format-pi-sd-cards-using-sd-formatter/)
 * **[NOOBS](http://www.raspberrypi.org/archives/4100) - much easier getting started**
 * [Ultimate Raspberry Pi Configuration Guide](http://www.instructables.com/id/Ultimate-Raspberry-Pi-Configuration-Guide/?ALLSTEPS)
 
