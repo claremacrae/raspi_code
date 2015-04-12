@@ -48,6 +48,7 @@
 ## Other people's projects
 
 * [Winter on Georgian Bay | Inventing Situations.](http://inventingsituations.net/2014/05/16/winter-on-georgian-bay/)
+* [Accessing the Raspberry Pi Camera with OpenCV and Python](http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python)
 
 ## RasPi Camera project ideas
 
