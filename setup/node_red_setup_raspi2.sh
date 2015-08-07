@@ -13,10 +13,3 @@ sudo npm install -g --unsafe-perm  node-red
 cd ~/.node-red
 npm install node-red-node-pibrella
 
-# Start the server
-node-red-pi --max-old-space-size=128
-
-# Load page in browser
-hostname -I
-# e.g. http://172.17.14.116:1880/#
-http://localhost:1880/#
