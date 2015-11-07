@@ -1,6 +1,7 @@
 # based on https://www.raspberrypi.org/learning/sense-hat-marble-maze/worksheet/
 
 from sense_hat import SenseHat
+from time import sleep
 
 sense = SenseHat()
 sense.clear()
@@ -24,9 +25,9 @@ maze = [[r,r,r,r,r,r,r,r],
 def move_marble(pitch, roll, x, y):
     new_x = x
     new_y = y
-    if 1 < pitch < 179:
+    if 1 < pitch < 179 and x != 0:
         new_x -= 1
-    elif 359 > pitch > 181:
+    elif 359 > pitch > 181 and x != 7:
         new_x += 1
     return new_x, new_y
 
@@ -38,4 +39,6 @@ while not game_over:
     x,y = move_marble(pitch, roll, x, y)
     maze[y][x] = w
     sense.set_pixels(sum(maze,[]))
+    sleep(0.05)
+    maze[y][x] = b
 
