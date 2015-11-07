@@ -9,6 +9,7 @@ sense.clear()
 r = (255, 0, 0 )
 b = (0,0,0)
 w = (255, 255, 255 )
+g = (0, 255, 0)
 
 x = 1
 y = 1
@@ -19,7 +20,7 @@ maze = [[r,r,r,r,r,r,r,r],
         [r,b,r,b,r,r,r,r],
         [r,b,b,b,b,b,b,r],
         [r,b,r,r,r,r,b,r],
-        [r,b,b,r,b,b,b,r],
+        [r,b,b,r,g,b,b,r],
         [r,r,r,r,r,r,r,r]]
 
 def move_marble(pitch, roll, x, y):
@@ -48,12 +49,19 @@ def check_wall(x, y, new_x, new_y):
         return new_x, y
     return x,y
 
+def check_win(x, y):
+    global game_over
+    if maze[y][x] == g:
+        game_over = True
+        sense.show_message('You Win')
+
 game_over = False
 
 while not game_over:
     pitch = sense.get_orientation()['pitch']
     roll = sense.get_orientation()['roll']
     x,y = move_marble(pitch, roll, x, y)
+    check_win(x, y)
     maze[y][x] = w
     sense.set_pixels(sum(maze,[]))
     sleep(0.05)
