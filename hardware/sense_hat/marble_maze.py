@@ -10,6 +10,10 @@ time.sleep(0.5)
 
 r = (255, 0, 0 )
 b = (0,0,0)
+w = (255, 255, 255 )
+
+x = 1
+y = 1
 
 maze = [[r,r,r,r,r,r,r,r],
         [r,b,b,b,b,b,b,r],
@@ -21,3 +25,9 @@ maze = [[r,r,r,r,r,r,r,r],
         [r,r,r,r,r,r,r,r]]
 
 sense.set_pixels(sum(maze,[]))
+
+game_over = False
+
+while not game_over:
+    maze[y][x] = w
+    sense.set_pixels(sum(maze,[]))
