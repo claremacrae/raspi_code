@@ -35,7 +35,18 @@ def move_marble(pitch, roll, x, y):
     elif 359 > roll > 181 and y != 0:
         new_y -= 1
 
-    return new_x, new_y
+    x,y = check_wall(x, y, new_x, new_y)
+
+    return x, y
+
+def check_wall(x, y, new_x, new_y):
+    if maze[new_y][new_x] != r:
+        return new_x, new_y
+    elif maze[new_y][x] != r:
+        return x, new_y
+    elif maze[y][new_x] != r:
+        return new_x, y
+    return x,y
 
 game_over = False
 
