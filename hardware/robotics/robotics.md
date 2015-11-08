@@ -16,13 +16,25 @@
 	* [Assembly guide to the Ryanteck RTK 003 budget robot kit](http://smstextblog.blogspot.co.uk/2014/05/assembly-guide-to-ryanteck-rtk-003.html)
 * `[>]` Assemble my robot!
 
+
+## CamJam EduKit 3 - robot
+
+* [Build a Raspberry Pi Robot for £17! | Average Man Vs Raspberry Pi](http://www.averagemanvsraspberrypi.com/2015/10/edukit-3-raspberry-pi-robot.html)
+
+
 ## General Info and Links
 
+* [Getting started with robotics | Pi Wars](http://piwars.org/getting-started-with-robotics/)
 * [Articles tagged with "robots"](http://www.raspberrypi.org/tag/robots/) on Foundation Website
 * [Building robots with Raspberry Pi and Python](http://www.instructables.com/id/Building-robots-with-Raspberry-Pi-and-Python/)
 * [Physical computing with Raspberry Pi](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/robot_control/)
 * MagPi Issue 25 has Part 1 of a 2-part article by Harry Gee that looks good, and includes line-walking
 * [How to get the most out of a Raspberry Pi? Your tech questions answered | Technology | The Guardian](http://www.theguardian.com/technology/2014/dec/07/get-the-most-out-of-a-raspberry-pi)
+
+## Tutorials
+
+* [The triumphant return of the Raspberry Pi Guy - Raspberry Pi](https://www.raspberrypi.org/the-triumphant-return-of-the-raspberry-pi-guy/)
+
 
 ## Project Ideas
 

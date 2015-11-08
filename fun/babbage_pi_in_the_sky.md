@@ -11,6 +11,7 @@ This is my favourite Raspberry Pi project - "Teddy bear falls from space and bea
 
 ## Make your own
 
-July 2014: Dave Akerman is producing [Pi In the Sky: a simple and reliable GPS radio tracker board for the Pi](http://www.pi-in-the-sky.com/)
-
+* July 2014: Dave Akerman is producing [Pi In the Sky: a simple and reliable GPS radio tracker board for the Pi](http://www.pi-in-the-sky.com/)
 * [@pitsproject](https://twitter.com/pitsproject)
+* [guides:how\_to\_lose\_your\_flight - UKHAS Wiki](https://ukhas.org.uk/guides:how_to_lose_your_flight) - rather fun list of errors
+* [guides:chasing\_your\_flight - UKHAS Wiki](https://ukhas.org.uk/guides:chasing_your_flight)

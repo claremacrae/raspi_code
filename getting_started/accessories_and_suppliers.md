@@ -14,7 +14,7 @@
 	* [Gpio.co.uk](http://gpio.co.uk/)
 	* [Kitronik](https://www.kitronik.co.uk/) - Electronic educational and hobby project kits, accessories, tools and resources - including fabric/fashion range - they made the green bags we got from Jamboree 2014
 	* [Little British Robot Company](http://www.thelittlebritishrobotcompany.co.uk/)
-	* [Makersify | A British Maker Store](http://makersify.com/)
+	* [Makersify | A British Maker Store](http://makersify.com/) - apparently good UK supplier of Adafruit kit
 	* [ModMyPi | All](https://www.modmypi.com/shop)
 	* [Most Popular | Tindie](https://www.tindie.com/browse/)
 	* [Phenoptix](http://www.phenoptix.com/) - Open Source Electronics Kits and Components in the UK

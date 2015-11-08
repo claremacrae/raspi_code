@@ -25,6 +25,7 @@
 		* The correct option is actually `-rot 180`
 * [ModMyPi | RPi Camera Board 360 Gooseneck Mount](https://www.modmypi.com/flexible-camera-mount)
 	*  [ModMyPi | Raspberry Pi Camera](https://www.modmypi.com/raspberry-pi-camera)
+*  [Camera board extension - Raspberry Pi](https://www.raspberrypi.org/camera-board-extension/)
 
 ## Software
 
@@ -49,6 +50,7 @@
 
 * [Winter on Georgian Bay | Inventing Situations.](http://inventingsituations.net/2014/05/16/winter-on-georgian-bay/)
 * [Accessing the Raspberry Pi Camera with OpenCV and Python](http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python)
+* [Kite mapping - Raspberry Pi](https://www.raspberrypi.org/kite-mapping/)
 
 ## RasPi Camera project ideas
 

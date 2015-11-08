@@ -11,6 +11,7 @@
 
 ## Getting Started
 
+* [**Raspberry Pi Learning Resources · GitHub**](https://github.com/raspberrypilearning) - excellent set of resources
 * [Raspberry Pi: Up and Running](http://blog.makezine.com/video/raspberry-pi-up-and-running/) - very good introductory video, from Make
 * [Makezine Raspberry Pi section](http://blog.makezine.com/category/electronics/raspberry-pi/)
 * [Raspberry Pi Wiki Hub](http://elinux.org/RPi_Hub)
