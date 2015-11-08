@@ -20,3 +20,4 @@
 * [GPIO Zero](http://pythonhosted.org/gpiozero/) - A simple interface to everyday GPIO components used with Raspberry Pi
 * [GPIO Zero – Introduction » RasPi.TV](http://raspi.tv/2015/gpio-zero-introduction)
 * [GPIO Zero Test Drive – Making Light of Security » RasPi.TV](http://raspi.tv/2015/gpio-zero-test-drive-making-light-of-security)
+* Use command 'gpio readall' to see state of pins
