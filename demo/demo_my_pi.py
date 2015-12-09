@@ -4,6 +4,12 @@ without needing to interact with the Pi to start commands.
 
 I'm intending this to be run at startup, perhaps if no keyboard
 is connected?
+
+To run this automatically, see
+http://www.raspberrypi-spy.co.uk/2013/07/running-a-python-script-at-boot-using-cron/
+
+Add this line to the root contab file
+@reboot python /home/pi/develop/raspi_code/demo/demo_my_pi.py &
 """
 
 import os.path
