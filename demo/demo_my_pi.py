@@ -9,7 +9,7 @@ To run this automatically, see
 http://www.raspberrypi-spy.co.uk/2013/07/running-a-python-script-at-boot-using-cron/
 
 Add this line to the root contab file
-@reboot python /home/pi/develop/raspi_code/demo/demo_my_pi.py &
+@reboot python /home/pi/develop/raspi_code/demo/demo_my_pi.py --keyboard_check &
 """
 
 import os.path
@@ -32,7 +32,7 @@ def is_keyboard_attached():
     df = subprocess.check_output("lsusb", shell=True)
     return 'keyboard' in df.lower()
 
-if is_keyboard_attached():
+if '--keyboard_check' in sys.argv and is_keyboard_attached():
     print "Keyboard attached - skipping demo"
     sys.exit()
 
