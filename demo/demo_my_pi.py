@@ -13,6 +13,7 @@ Add this line to the root contab file
 """
 
 import os.path
+import sys
 import subprocess
 
 hat_product_file = "/proc/device-tree/hat/product"
@@ -25,10 +26,20 @@ def get_hat_name():
         line = f.read()
         return line
 
+def is_keyboard_attached():
+    # From http://stackoverflow.com/a/8265634
+    import subprocess
+    df = subprocess.check_output("lsusb", shell=True)
+    return 'keyboard' in df.lower()
+
+if is_keyboard_attached():
+    print "Keyboard attached - skipping demo"
+    sys.exit()
+
 hat_name = get_hat_name()
 if not hat_name:
     print "No HAT connected"
-    exit
+    sys.exit()
 print hat_name
 
 script_name = None
