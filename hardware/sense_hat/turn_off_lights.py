@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # based on https://www.raspberrypi.org/learning/sense-hat-marble-maze/worksheet/
 
 from sense_hat import SenseHat

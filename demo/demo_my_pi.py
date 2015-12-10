@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 A script to show off certain Raspberry Pi features automatically,
 without needing to interact with the Pi to start commands.
