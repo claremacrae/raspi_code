@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import dothat.lcd as lcd
 import dothat.backlight as backlight
 
