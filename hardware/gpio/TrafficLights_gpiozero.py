@@ -29,9 +29,12 @@ def british_lights_cycle(lights, cycle_time):
     time.sleep(cycle_time)
 
 
-lights = TrafficLights(17, 23, 25)
+lights = TrafficLights(17, 27, 22)
 
-british_lights_cycle(lights, 2)
+while True:
+    british_lights_cycle(lights, 0.75)
+    lights.off()
+    time.sleep(0.75)
 
 lights.off()
 
