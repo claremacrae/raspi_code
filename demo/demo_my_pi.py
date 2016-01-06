@@ -49,6 +49,13 @@ if hat_name.startswith("Unicorn HAT"):
     script_name = "/home/pi/Pimoroni/unicornhat/rainbow.py"
 elif hat_name.startswith("Sense HAT"):
     script_name = "/home/pi/develop/raspi_code/hardware/sense_hat/marble_maze.py"
+elif hat_name.startswith("Display-o-Tron HAT"):
+    # This gives an error when run from this script:
+    # Traceback (most recent call last):
+    #   File "/home/pi/Pimoroni/dot3k/dothat/advanced/menu.py", line 18, in <module>
+    #     from plugins.utils import Backlight, Contrast
+    # ImportError: No module named plugins.utils
+    script_name = "/home/pi/Pimoroni/dot3k/dothat/advanced/menu.py"
 
 print script_name
 if os.path.exists(script_name):
