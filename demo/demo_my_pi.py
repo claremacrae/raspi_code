@@ -47,6 +47,8 @@ print hat_name
 script_name = None
 if hat_name.startswith("Unicorn HAT"):
     script_name = "/home/pi/Pimoroni/unicornhat/rainbow.py"
+elif hat_name.startswith("Piano HAT"):
+    script_name = "/home/pi/Pimoroni/pianohat/simple-piano.py"
 elif hat_name.startswith("Sense HAT"):
     script_name = "/home/pi/develop/raspi_code/hardware/sense_hat/marble_maze.py"
 elif hat_name.startswith("Display-o-Tron HAT"):
