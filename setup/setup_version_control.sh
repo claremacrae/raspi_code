@@ -4,3 +4,5 @@
 # gitk provides a UI to view history.
 
 sudo apt-get install gitg gitk -y
+
+sudo apt-get install -y mercurial tortoisehg kdiff3 meld
