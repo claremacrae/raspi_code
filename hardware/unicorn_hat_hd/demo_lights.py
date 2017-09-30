@@ -42,6 +42,7 @@ p1.turn_on()
 p2.turn_on()
 p3.turn_on()
 p4.turn_on()
+unicornhathd.show()
 
 try:
     while True:
