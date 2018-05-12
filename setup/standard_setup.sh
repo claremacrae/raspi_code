@@ -2,6 +2,6 @@
 
 set -u
 
-./standard_setup.sh
+./setup_dotfiles.sh
 ./setup_editors.sh
 ./setup_version_control.sh
