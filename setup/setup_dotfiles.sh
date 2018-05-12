@@ -15,8 +15,8 @@ alias la='ls -A'
 alias l='ls -CF'
 alias rt='ls -lsrta'
 
-alias gstat='for dir in * ; do cd $dir; git status; echo $dir; echo " " ; cd ..; done'
-alias gdiff='for dir in * ; do cd $dir; git status; echo $dir; echo " " ; cd ..; done'
+alias gstat='for dir in * ; do cd \$dir; git status; echo \$dir; echo " " ; cd ..; done'
+alias gdiff='for dir in * ; do cd \$dir; git status; echo \$dir; echo " " ; cd ..; done'
 
 CDPATH="."
 for dir in \\
