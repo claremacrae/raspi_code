@@ -3,9 +3,7 @@
 set -u
 
 # to force this script to run:
-#   \rm ~/.bash_aliases
-#   ./setup_dotfiles.sh
-#   . ~/.bash_aliases
+#   \rm ~/.bash_aliases && ./setup_dotfiles.sh && . ~/.bash_aliases
 
 BASH_ALIASES=~/.bash_aliases
 if [ ! -f $BASH_ALIASES ]; then
