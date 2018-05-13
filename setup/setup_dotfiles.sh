@@ -3,7 +3,7 @@
 set -u
 
 # to force this script to run:
-#   \rm ~/.bash_aliases && ./setup_dotfiles.sh && . ~/.bash_aliases
+#   \rm -f ~/.bash_aliases && ./setup_dotfiles.sh && . ~/.bash_aliases
 
 BASH_ALIASES=~/.bash_aliases
 if [ ! -f $BASH_ALIASES ]; then
@@ -15,8 +15,8 @@ alias la='ls -A'
 alias l='ls -CF'
 alias rt='ls -lsrta'
 
-alias gstat='for dir in * ; do cd $dir; git status; echo $dir; echo " " ; cd ..; done'
-alias gdiff='for dir in * ; do cd $dir; git diff  ; echo $dir; echo " " ; cd ..; done'
+alias gstat='cd /home/pi/develop ; for dir in * ; do     cd $dir; git status; echo $dir; echo " " ; cd ..;     done ; cd -'
+alias gdiff='cd /home/pi/develop ; for dir in * ; do     cd $dir; git diff  ; echo $dir; echo " " ; cd ..;     done ; cd -'
 
 CDPATH="."
 for dir in \
