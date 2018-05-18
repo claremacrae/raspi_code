@@ -24,7 +24,8 @@ for dir in \
     /home/pi/develop \
     /home/pi/develop/raspi_code/ \
     /home/pi/develop/raspi_code/hardware/ \
-    /home/pi/develop/raspi_code/programming/ ; do
+    /home/pi/develop/raspi_code/programming/ \
+    /home/pi/develop/raspi_code/tools/ ; do
     if [ ! -d "$dir" ]; then
         continue
     fi
