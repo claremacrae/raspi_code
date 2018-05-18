@@ -4,8 +4,7 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-output_dir=~/speedtest_results
-mkdir -p $output_dir
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+. $script_dir/config.sh
 
-output_file=$output_dir/`hostname`.tsv
 cat $output_file
