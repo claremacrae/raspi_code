@@ -19,4 +19,3 @@ fi
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 $script_dir/speedtest-cli-extras/bin/speedtest-csv --no-share >> $output_file
 
-cat $output_file
