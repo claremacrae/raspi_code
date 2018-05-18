@@ -31,3 +31,4 @@ hostname=`hostname`
 # For meaning of pi_revision values, see https://elinux.org/RPi_HardwareHistory
 pi_revision=`cat /proc/cpuinfo | grep 'Revision' | awk '{print $3}' | sed 's/^1000//'`
 (echo -ne "$hostname\\t$pi_revision\\t"; $script_dir/speedtest-cli-extras/bin/speedtest-csv --no-share ) >> $output_file
+echo Done
