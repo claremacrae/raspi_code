@@ -38,6 +38,9 @@ nosetests.xml
 # Camera files
 camera/*.jpg
 
+# Directories cloned from elsewhere
+tools/monitor_connection_speed/speedtest-cli-extras/
+
 # Files downloaded from elsewhere
 piglow/piglow.py
 piglow/test.py
