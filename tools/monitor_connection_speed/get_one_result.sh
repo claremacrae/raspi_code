@@ -16,6 +16,7 @@ if [[ ! -f $output_file ]] ; then
     ./speedtest-cli-extras/bin/speedtest-csv --header > $output_file
 fi
 
-./speedtest-cli-extras/bin/speedtest-csv --no-share >> $output_file
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+$script_dir/speedtest-cli-extras/bin/speedtest-csv --no-share >> $output_file
 
 cat $output_file
