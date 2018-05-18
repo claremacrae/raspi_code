@@ -9,6 +9,7 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Based on https://makezine.com/projects/send-ticket-isp-when-your-internet-drops/
 
+sudo apt-get install python-pip -y
 sudo pip install speedtest-cli
 
 cd $script_dir
