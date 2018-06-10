@@ -33,8 +33,8 @@ try:
     with ControllerResource(dead_zone=0.1, hot_zone=0.2) as joystick:
         while True:
             # Loop, printing the corrected value from the left stick
-            x_axis = joystick.axes.get_value('lx')
-            y_axis = joystick.axes.get_value('ly')
+            x_axis = joystick['lx']
+            y_axis = joystick['ly']
             # Don't be too spammy!
             sleep(0.1)
 
