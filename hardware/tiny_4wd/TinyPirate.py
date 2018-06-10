@@ -27,6 +27,29 @@ def mixer(inYaw, inThrottle,):
 def constrain(val, min_val, max_val):
     return min(max_val, max(min_val, val))
 
+
+def process_abs_y_event(event_state):
+    y_axis = event_state
+    if y_axis > 130:
+        y_axis = -(y_axis - 130)
+    elif y_axis < 125:
+        y_axis = ((-y_axis) + 125)
+    else:
+        y_axis = 0.0
+    return y_axis
+
+
+def process_abs_z_event(event_state):
+    x_axis = event_state
+    if x_axis > 130:
+        x_axis = (x_axis - 130)
+    elif x_axis < 125:
+        x_axis = -((-x_axis) + 125)
+    else:
+        x_axis = 0.0
+    return x_axis
+
+
 # Setup
 maxPower  = 1.0
 power_left = 0.0
@@ -49,26 +72,14 @@ def main():
                         print("Backwards")
                     elif event.state < 125:
                         print("Forward")
-                    y_axis = event.state
-                    if y_axis > 130:
-                        y_axis = -(y_axis - 130)
-                    elif y_axis < 125:
-                        y_axis = ((-y_axis) + 125)
-                    else:
-                        y_axis = 0.0
+                    y_axis = process_abs_y_event(event.state)
                     print("Y: " + str(-y_axis))
                 if event.code == "ABS_Z":
                     if event.state > 130:
                         print("Right")
                     elif event.state < 125:
                         print("Left")
-                    x_axis = event.state
-                    if x_axis > 130:
-                        x_axis = (x_axis - 130)
-                    elif x_axis < 125:
-                        x_axis = -((-x_axis) + 125)
-                    else:
-                        x_axis = 0.0
+                    x_axis = process_abs_z_event(event.state)
                     print("X: " + str(x_axis))
 
                 if event.code == "BTN_TL":

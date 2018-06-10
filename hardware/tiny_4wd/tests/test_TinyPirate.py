@@ -5,7 +5,7 @@ from approvaltests.reporters.generic_diff_reporter_factory import GenericDiffRep
 
 import sys
 sys.path.append("..")
-from TinyPirate import mixer, constrain
+from TinyPirate import mixer, constrain, process_abs_y_event, process_abs_z_event
 
 class TinyPirateTest(unittest.TestCase):
     def setUp(self):
@@ -31,6 +31,22 @@ class TinyPirateTest(unittest.TestCase):
             func,
             arg_combinations,
             reporter=self.reporter)
+
+    def test_process_abs_y_event(self):
+        states = [n for n in range(-180, 181)]
+
+        arg_combinations = (states,)
+        func = lambda a: process_abs_y_event(a)
+        verify_all_combinations(func, arg_combinations, reporter=self.reporter)
+
+
+    def test_process_abs_z_event(self):
+        states = [n for n in range(-180, 181)]
+
+        arg_combinations = (states,)
+        func = lambda a: process_abs_z_event(a)
+        verify_all_combinations(func, arg_combinations, reporter=self.reporter)
+
 
 if __name__ == "__main__":
     unittest.main()
