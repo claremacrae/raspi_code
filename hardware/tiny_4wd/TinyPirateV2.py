@@ -7,7 +7,6 @@
 
 # Load library functions we want
 
-from approxeng.input.dualshock3 import DualShock3
 from approxeng.input.selectbinder import ControllerResource
 from time import sleep
 from explorerhat import motor
@@ -31,7 +30,7 @@ try:
     print('Press CTRL+C to quit')
 
     # Loop indefinitely
-    with ControllerResource(controller_class = DualShock3, dead_zone=0.1, hot_zone=0.2) as joystick:
+    with ControllerResource(dead_zone=0.1, hot_zone=0.2) as joystick:
         while True:
             # Loop, printing the corrected value from the left stick
             x_axis = joystick.axes.get_value('lx')
