@@ -1,5 +1,5 @@
 import time
-from random import randint
+from random import random, randint
 from mote import Mote
 
 mote = Mote()
@@ -29,3 +29,5 @@ while True:
     channel = randint(1, 4)
     icicle = Icicle(channel)
     icicle.run()
+    mote.show()
+    time.sleep(random() * 3.0)
