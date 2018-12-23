@@ -16,7 +16,6 @@ class Icicle:
         self.channel = channel
     def run(self):
         for pixel in range(16):
-            mote.clear()
             brightness = max_brightness -(2*pixel)
             mote.set_pixel(channel, pixel, brightness, brightness, brightness)
             mote.show()
