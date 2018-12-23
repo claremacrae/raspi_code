@@ -1,4 +1,5 @@
 import time
+from random import randint
 from mote import Mote
 
 mote = Mote()
@@ -25,6 +26,6 @@ class Icicle:
 mote.clear()
 
 while True:
-    for channel in range(1, 5):
-        icicle = Icicle(channel)
-        icicle.run()
+    channel = randint(1, 4)
+    icicle = Icicle(channel)
+    icicle.run()
