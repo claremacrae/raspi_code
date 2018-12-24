@@ -14,42 +14,39 @@ full_brightness = 40
 class Icicle:
     def __init__(self, channel):
         self.channel = channel
-        self.current_pixel = 0
+
+        # The icicle has a random "virtual" length, which is longer than the physical
+        # number of pixels.
+        # Each frame, the drip progresses along the virtual length,
+        # until it reaches the end of the virtual icicle.
+        self.current_pixel = None
+        self.pixel_length = None
         self.start_random_wait_for_next_drip()
+        
+        # To avoid all 4 icicles starting at the same time, for this first cycle only,
+        # start the loop below the end of the icicle, so that we just see a wait
+        # until the end of the virtual icicle
+        self.current_pixel = 20
+        assert(self.current_pixel < self.pixel_length)
 
     def step(self):
-        # Turn off previous pixel
-        self.set_pixel_brightness(self.previous_pixel(), 0.0)
-        
-        # Check if we are pausing between drips
-        if self.frames_to_wait > 0:
-            self.frames_to_wait -= 1
-            return
-        
-        # Advance to next pixel
+        # Dim or turn off previous pixels
+        self.set_pixel_brightness(self.current_pixel - 3, 0.0)
+        self.set_pixel_brightness(self.current_pixel - 2, 0.1)
+        self.set_pixel_brightness(self.current_pixel - 1, 0.2)
         self.set_pixel_brightness(self.current_pixel, 1.0)
 
         # Advance pixel number, ready for next frame
-        self.current_pixel = self.next_pixel()
+        self.current_pixel += 1
 
         # If the next pixel will be zero, set up a random wait before starting the
         # next cycle:
-        if self.current_pixel == 0:
+        if self.current_pixel == self.pixel_length:
             self.start_random_wait_for_next_drip()
 
-    def next_pixel(self, delta = 1):
-        new_pixel = self.current_pixel + delta
-        if not self.valid_pixel(new_pixel):
-            new_pixel -= 16
-        return new_pixel
-    
-    def previous_pixel(self, delta = 1):
-        new_pixel = self.current_pixel - delta
-        if not self.valid_pixel(new_pixel):
-            new_pixel += 16
-        return new_pixel
-
     def set_pixel_brightness(self, pixel, brightness_fraction):
+        if not self.valid_pixel(pixel):
+            return
         brightness = int(brightness_fraction * full_brightness)
         mote.set_pixel(self.channel, pixel, brightness, brightness, brightness)
 
@@ -57,7 +54,8 @@ class Icicle:
         return pixel >=0 and pixel <= 15
 
     def start_random_wait_for_next_drip(self):
-        self.frames_to_wait = randint(15, 30)
+        self.current_pixel = 0
+        self.pixel_length = randint(25, 50)
 
 
 if __name__ == "__main__":
