@@ -19,7 +19,7 @@ class Icicle:
 
     def step(self):
         # Turn off previous pixel
-        self.set_pixel_color(self.previous_pixel(), 0, 0, 0)
+        self.set_pixel_brightness(self.previous_pixel(), 0.0)
         
         # Check if we are pausing between drips
         if self.frames_to_wait > 0:
@@ -27,8 +27,7 @@ class Icicle:
             return
         
         # Advance to next pixel
-        brightness = full_brightness
-        self.set_pixel_color(self.current_pixel, brightness, brightness, brightness)
+        self.set_pixel_brightness(self.current_pixel, 1.0)
 
         # Advance pixel number, ready for next frame
         self.current_pixel = self.next_pixel()
@@ -50,8 +49,9 @@ class Icicle:
             new_pixel += 16
         return new_pixel
 
-    def set_pixel_color(self, pixel, red, green, blue):
-        mote.set_pixel(self.channel, pixel, red, green, blue)
+    def set_pixel_brightness(self, pixel, brightness_fraction):
+        brightness = int(brightness_fraction * full_brightness)
+        mote.set_pixel(self.channel, pixel, brightness, brightness, brightness)
 
     def valid_pixel(self, pixel):
         return pixel >=0 and pixel <= 15
