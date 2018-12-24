@@ -1,5 +1,4 @@
 import time
-import threading
 from random import random, randint
 from mote import Mote
 
@@ -15,48 +14,44 @@ max_brightness = 40
 class Icicle:
     def __init__(self, channel):
         self.channel = channel
-    def run(self):
-        while True:
-            for pixel in range(16):
-                brightness = max_brightness -(2*pixel)
-                mote.set_pixel(self.channel, pixel, brightness, brightness, brightness)
-                mote.show()
-                time.sleep(0.05)
-                mote.set_pixel(self.channel, pixel, 0, 0, 0)
-            time.sleep(random() * 3.0)
+        self.current_pixel = 0
 
-def thread_icicle1():
-    icicle = Icicle(1)
-    icicle.run()
+    def step(self):
+        # Turn off previous pixel
+        mote.set_pixel(self.channel, self.previous_pixel(), 0, 0, 0)
+        
+        # Advance to next pixel
+        brightness = max_brightness -(2*self.current_pixel)
+        mote.set_pixel(self.channel, self.current_pixel, brightness, brightness, brightness)
 
-def thread_icicle2():
-    icicle = Icicle(2)
-    icicle.run()
+        # Advance pixel number, ready for next frame
+        self.current_pixel = self.next_pixel()
+        
+    def next_pixel(self):
+        if self.current_pixel < 15:
+            return self.current_pixel + 1
+        else:
+            return 0
+    
+    def previous_pixel(self):
+        if self.current_pixel > 0:
+            return self.current_pixel - 1
+        else:
+            return 15
 
-def thread_icicle3():
-    icicle = Icicle(3)
-    icicle.run()
-
-def thread_icicle4():
-    icicle = Icicle(4)
-    icicle.run()
 
 if __name__ == "__main__":
     mote.clear()
+    
+    icicles = [
+        Icicle(1), 
+        Icicle(2), 
+        Icicle(3), 
+        Icicle(4)
+        ]
 
-    t1 = threading.Thread(name="Hello1", target=thread_icicle1)
-    t1.start()
-
-    t2 = threading.Thread(name="Hello2", target=thread_icicle2)
-    t2.start()
-
-    t3 = threading.Thread(name="Hello3", target=thread_icicle3)
-    t3.start()
-
-    t4 = threading.Thread(name="Hello4", target=thread_icicle4)
-    t4.start()
-
-    t1.join()
-    t2.join()
-    t3.join()
-    t4.join()
+    while True:
+        for icicle in icicles:
+            icicle.step()
+        mote.show()
+        time.sleep(0.2)
