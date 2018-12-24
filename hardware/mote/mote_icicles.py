@@ -72,4 +72,4 @@ if __name__ == "__main__":
         for icicle in icicles:
             icicle.step()
         mote.show()
-        time.sleep(0.2)
+        time.sleep(0.1)
