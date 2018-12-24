@@ -27,17 +27,20 @@ class Icicle:
         # Advance pixel number, ready for next frame
         self.current_pixel = self.next_pixel()
         
-    def next_pixel(self):
-        if self.current_pixel < 15:
-            return self.current_pixel + 1
-        else:
-            return 0
+    def next_pixel(self, delta = 1):
+        new_pixel = self.current_pixel + delta
+        if not self.valid_pixel(new_pixel):
+            new_pixel -= 16
+        return new_pixel
     
-    def previous_pixel(self):
-        if self.current_pixel > 0:
-            return self.current_pixel - 1
-        else:
-            return 15
+    def previous_pixel(self, delta = 1):
+        new_pixel = self.current_pixel - delta
+        if not self.valid_pixel(new_pixel):
+            new_pixel += 16
+        return new_pixel
+
+    def valid_pixel(self, pixel):
+        return pixel >=0 and pixel <= 15
 
 
 if __name__ == "__main__":
