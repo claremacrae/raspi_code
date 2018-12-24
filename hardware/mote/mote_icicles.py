@@ -9,7 +9,7 @@ mote.configure_channel(2, 16, False)
 mote.configure_channel(3, 16, False)
 mote.configure_channel(4, 16, False)
 
-max_brightness = 40
+full_brightness = 40
 
 class Icicle:
     def __init__(self, channel):
@@ -27,7 +27,7 @@ class Icicle:
             return
         
         # Advance to next pixel
-        brightness = max_brightness -(2*self.current_pixel)
+        brightness = full_brightness
         mote.set_pixel(self.channel, self.current_pixel, brightness, brightness, brightness)
 
         # Advance pixel number, ready for next frame
