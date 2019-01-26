@@ -4,6 +4,9 @@ set -u
 
 # to force this script to run:
 #   \rm -f ~/.bash_aliases && ./setup_dotfiles.sh && . ~/.bash_aliases
+#
+# to run just this script, without cloning:
+#   \curl -sS https://raw.githubusercontent.com/claremacrae/raspi_code/master/setup/setup_dotfiles.sh | bash
 
 BASH_ALIASES=~/.bash_aliases
 if [ ! -f $BASH_ALIASES ]; then
