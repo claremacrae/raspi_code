@@ -58,6 +58,8 @@ elif hat_name.startswith("Display-o-Tron HAT"):
     #     from plugins.utils import Backlight, Contrast
     # ImportError: No module named plugins.utils
     script_name = "/home/pi/Pimoroni/dot3k/dothat/advanced/menu.py"
+else:
+    script_name = "/home/pi/develop/snowpirgb-python-claremacrae/demo.py"
 
 print script_name
 if os.path.exists(script_name):
