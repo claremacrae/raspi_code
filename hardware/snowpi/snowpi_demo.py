@@ -101,6 +101,7 @@ if __name__ == '__main__':
 
     # If no demo modes set, turn on '--all'
     if not (args.a or args.w or args.t or args.w):
+        print('No modes given: running all demos')
         args.a = True
 
     if args.b:
