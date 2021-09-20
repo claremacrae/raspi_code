@@ -13,8 +13,11 @@ The main areas are:
 * [Getting Started](getting_started/)
 * [Kids and Education](kids_and_education/)
 * [Programming](programming/)
+* [Reference](reference/)
 * [Hardware](hardware/)
 * [Fun](fun/)
+* [Projects](projects/)
+* [Seasons and Events](seasons_and_events/)
 
 The files called `.md` are the ones of general interest.
 
