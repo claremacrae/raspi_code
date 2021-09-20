@@ -12,7 +12,7 @@
 
 [Write SD Card Images Using Etcher On Windows, Linux & Mac](http://www.raspberrypi-spy.co.uk/2016/04/writing-sd-card-images-using-etcher-on-windows-linux-mac/)
 
-## PiBakery
+## PiBakery
 
 * [PiBakery](http://pibakery.org/)
 * [GitHub - davidferguson/pibakery-blocks: All the blocks for the Pi Bakery program](https://github.com/davidferguson/pibakery-blocks/)

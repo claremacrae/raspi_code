@@ -20,13 +20,13 @@
 * [Raspberry Pi button power buzzer - Google Search](https://www.google.co.uk/search?q=Raspberry+Pi+button+power+buzzer&ie=UTF-8&oe=UTF-8&hl=en-gb&client=safari)
 * [Pimoroni - Buzzers](https://shop.pimoroni.com/search?type=product&q=Buzzer)
 
-### Arduino
+### Arduino
 
-### CodeBug
+### CodeBug
 
 * [CodeBug – Countdown timer with (external) buzzer](https://www.codebug.org.uk/explore/codebug/410/countdown-timer-with-external-buzzer/)
 
-### Crumble
+### Crumble
 
 * [Buzzer Crumb Digital Output for Crumble Controller](https://4tronix.co.uk/store/index.php?rt=product/product&keyword=Buzzer&category_id=0&product_id=474)
 
@@ -35,7 +35,7 @@
 * [Simon:Says for micro:bit - Pimoroni](https://shop.pimoroni.com/products/simon-says-for-micro-bit)
 * **[MI:Power board for the BBC micro:bit - Pimoroni](https://shop.pimoroni.com/products/mi-power-board-for-the-bbc-micro-bit)**
 
-### Raspberry Pi 
+### Raspberry Pi 
 
 * [PlayHAT - Neopixels, Buttons and Buzzer for Raspberry Pi](https://4tronix.co.uk/store/index.php?rt=product/product&product_id=441)
 	* Out of stock

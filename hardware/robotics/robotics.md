@@ -36,6 +36,6 @@
 * [The triumphant return of the Raspberry Pi Guy - Raspberry Pi](https://www.raspberrypi.org/the-triumphant-return-of-the-raspberry-pi-guy/)
 
 
-## Project Ideas
+## Project Ideas
 
 * [ToffeeBot | For Toffee](http://fortoffee.org.uk/2015/01/toffeebot/)

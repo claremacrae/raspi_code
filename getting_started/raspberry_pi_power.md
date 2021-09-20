@@ -29,6 +29,6 @@
 * https://mausberry-circuits.myshopify.com/products/shutdown-circuit-use-your-own-switch
 * https://www.tindie.com/products/tomtibbetts/piryte-mini-atx-psu-for-raspberry-pi/
 
-## PiJuice
+## PiJuice
 
 *See [pijuice_notes](editorial://open/Computing/Raspberry%20Pi/hardware/pijuice/pijuice_notes.md?root=dropbox)*
