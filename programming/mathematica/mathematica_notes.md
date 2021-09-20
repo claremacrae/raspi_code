@@ -10,6 +10,7 @@
 ## Wolfram Language
 
 * [Stephen Wolfram's Introduction to the Wolfram Language - YouTube](http://m.youtube.com/watch?v=_P9HqHVPeik)
+* [A Smart Programming Language for a Smart Cities Hackathon - Raspberry Pi](https://www.raspberrypi.org/a-smart-programming-language-for-a-smart-cities-hackathon/)
 
 ## Running on the command line
 

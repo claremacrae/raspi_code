@@ -36,6 +36,11 @@
 	* [Tate Creates Minecraft Worlds inspired by Art | Tate](http://www.tate.org.uk/about/press-office/press-releases/tate-creates-minecraft-worlds-inspired-art)
 	* [Tate Worlds: Art Reimagined for Minecraft | Tate](http://www.tate.org.uk/about/projects/tate-worlds-art-reimagined-minecraft)
 * [The Simpsons Intro | Built in Minecraft - YouTube](https://www.youtube.com/watch?v=fyR1LDapzRs)
+* [PatternCraft - Raspberry Pi](https://www.raspberrypi.org/blog/patterncraft/) - using punched cards to create blocks in Minecraft
+
+## Other APIs
+
+* [picraft — Picraft 0.2 documentation](http://picraft.readthedocs.org/en/release-0.2/)
 
 ## Minecraft and Javascript
 
