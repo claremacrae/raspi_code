@@ -7,6 +7,7 @@
 	* [4tronix - Electronics supplier](http://4tronix.co.uk/store/)
 	* [Alex Eames (with RasPiO stuff)](http://raspi.tv/)
 	* [AliExpress.com](http://www.aliexpress.com/) - Online Shopping for Electronics, Fashion, Home & Garden, Toys & Sports, Automobiles from China.
+	* [Bitsbox](https://www.bitsbox.co.uk/) - Electronic Components - **really good value**
 	* [Ciseco](http://shop.ciseco.co.uk/)
 	* [CPC](http://cpc.farnell.com/jsp/bespoke/bespoke7.jsp?bespokepage=cpc/en_CC/makerspace/raspberrypi.html&isRedirect=true)
 	* [Cyntech](http://www.cyntech.co.uk/)
